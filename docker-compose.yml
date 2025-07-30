@@ -1,0 +1,9 @@
+
+services:
+  semantic-sam:
+    build: .
+    volumes:
+      - ./app:/app
+    # command: python app.py # 假設有一個 app.py 啟動腳本
+    # ports:
+    #   - "8000:8000" # 如果應用程式有暴露端口，可以加上
