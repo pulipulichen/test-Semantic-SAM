@@ -18,5 +18,5 @@ RUN pip3 install torch==2.7.1 torchvision==0.22.1 --extra-index-url https://down
 RUN python -m pip install 'git+https://github.com/MaureenZOU/detectron2-xyz.git'
 RUN pip install git+https://github.com/cocodataset/panopticapi.git
 
-WORKDIR /Semantic-SAM
+WORKDIR /app/Semantic-SAM
 RUN python -m pip install -r requirements.txt
